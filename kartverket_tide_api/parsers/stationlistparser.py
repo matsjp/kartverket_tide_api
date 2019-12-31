@@ -1,6 +1,6 @@
-from tideapi.parsers import AbstractResponseParser
-from tideapi.tideobjects import Station
-from tideapi.exceptions import CannotFindElementException
+from kartverket_tide_api.parsers import AbstractResponseParser
+from kartverket_tide_api.tideobjects import Station
+from kartverket_tide_api.exceptions import CannotFindElementException
 
 
 class StationListParser(AbstractResponseParser):

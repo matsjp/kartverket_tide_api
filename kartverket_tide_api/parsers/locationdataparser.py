@@ -1,6 +1,6 @@
-from tideapi.parsers import AbstractResponseParser
-from tideapi.exceptions import CannotFindElementException, NoTideDataErrorException
-from tideapi.tideobjects import WaterLevel
+from kartverket_tide_api.parsers import AbstractResponseParser
+from kartverket_tide_api.exceptions import CannotFindElementException, NoTideDataErrorException
+from kartverket_tide_api.tideobjects import WaterLevel
 
 
 class LocationDataParser(AbstractResponseParser):

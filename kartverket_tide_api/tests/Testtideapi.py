@@ -1,5 +1,5 @@
 import unittest
-from tideapi.tide_api import TideApi
+from kartverket_tide_api.tide_api import TideApi
 import vcr
 import xml.etree.ElementTree as ElementTree
 

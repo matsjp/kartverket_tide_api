@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ElementTree
-from tideapi.exceptions import InvalidStationTypeErrorException, UnknownApiErrorException
+from kartverket_tide_api.exceptions import InvalidStationTypeErrorException, UnknownApiErrorException
 from abc import ABC, abstractmethod
 
 

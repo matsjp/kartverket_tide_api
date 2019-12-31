@@ -1,11 +1,11 @@
 import unittest
 
-from tideapi.exceptions import NoTideDataErrorException
-from tideapi.tide_api import TideApi
-from tideapi.parsers import LocationDataParser
+from kartverket_tide_api.exceptions import NoTideDataErrorException
+from kartverket_tide_api.tide_api import TideApi
+from kartverket_tide_api.parsers import LocationDataParser
 import vcr
 
-from tideapi.tideobjects import WaterLevel
+from kartverket_tide_api.tideobjects import WaterLevel
 
 
 class TestApiParserIntegration(unittest.TestCase):

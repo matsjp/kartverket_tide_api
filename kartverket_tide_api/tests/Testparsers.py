@@ -1,8 +1,8 @@
 import unittest
-from tideapi.parsers import LocationDataParser
-from tideapi.tideobjects import WaterLevel
-from tideapi.exceptions import NoTideDataErrorException
-from tideapi.exceptions import CannotFindElementException
+from kartverket_tide_api.parsers import LocationDataParser
+from kartverket_tide_api.tideobjects import WaterLevel
+from kartverket_tide_api.exceptions import NoTideDataErrorException
+from kartverket_tide_api.exceptions import CannotFindElementException
 
 
 class TestParsers(unittest.TestCase):
