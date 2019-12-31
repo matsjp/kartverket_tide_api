@@ -1,0 +1,44 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: http://api.sehavniva.no/tideapi.php?tide_request=locationdata&fromtime=2019-12-31T15%3A52%3A01%2B01&totime=2020-01-03T15%3A52%3A01%2B01&data_type=TAB&dst=1&refcode=CD&lang=en&lon=20&lat=68&datatype=TAB
+  response:
+    body:
+      string: '<tide>
+
+        <locationdata>
+
+        <nodata info="Sorry. We do not have sea level data for this area."/>
+
+        </locationdata>
+
+        </tide>'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - close
+      Content-Length:
+      - '114'
+      Content-Type:
+      - text/xml; charset=utf-8
+      Date:
+      - Tue, 31 Dec 2019 13:40:17 GMT
+      Server:
+      - Apache
+      X-Powered-By:
+      - PHP/5.3.3
+    status:
+      code: 200
+      message: OK
+version: 1
