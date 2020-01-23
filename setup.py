@@ -1,7 +1,8 @@
 from distutils.core import setup
 setup(
   name = 'kartverket_tide_api',
-  packages = ['kartverket_tide_api'],
+  packages = ['kartverket_tide_api', 'kartverket_tide_api/tideobjects', 'kartverket_tide_api/tests',
+              'kartverket_tide_api/parsers', 'kartverket_tide_api/exceptions'],
   version = '0.12',
   license='MIT',
   description = 'This is a unofficial library for the kartverket tide api',
