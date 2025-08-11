@@ -3,7 +3,7 @@ import requests
 
 class TideApi:
     """Used to send api requests to kartverket tide api"""
-    api_endpoint = 'http://api.sehavniva.no/tideapi.php'
+    api_endpoint = 'https://vannstand.kartverket.no/tideapi.php'
 
     def get_station_list(self, station_type='PERM'):
         """Send a stationlist request to the tide api.
